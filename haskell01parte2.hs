@@ -29,3 +29,34 @@ onlyElderly x = filter isElderly x
 
 onlyLongWords :: [String] -> [String]
 onlyLongWords x = filter isLongWord x
+
+-- Exercicio 5
+-- Teste de paridade
+
+onlyEven :: [Int] -> [Int]
+onlyEven x = filter isEvenBetter x
+
+-- Exercicio 6
+-- Maior que 60 menor que 80
+
+onlyBetween60and80 :: [Int] -> [Int]
+onlyBetween60and80 x = filter between60and80 x
+
+-- Exercicio 7
+-- Conta espacos
+-- Tamanho da string original - Tamanho da string sem espacos
+
+countSpaces :: String -> Int
+countSpaces x = length x - length (filter noSpace x) 
+
+-- Exercicio 8
+-- Calcula areas
+
+calcAreas :: [Float] -> [Float]
+calcAreas x = map circleArea x
+
+-- Exercicio 9
+-- "Elem"
+
+charFound :: Char -> String -> Bool
+charFound x y = length (filter (sameChar x)  y) > 0 
