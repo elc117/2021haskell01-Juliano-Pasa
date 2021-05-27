@@ -19,6 +19,7 @@ svgAll =
   svgBegin 500 500 ++ 
 
   -- Lua
+  (svgCircle 250 250 500 "rgb(0, 0, 0, 1.0)") ++ 
   (svgCircle 250 250 500 "rgb(0, 42, 128, 0.2)") ++ 
   (svgCircle 250 110 100 "rgb(175, 175, 175, 0.6)") ++ 
   (svgCircle 244 104 95 "rgb(255, 255, 255, 0.8)") ++

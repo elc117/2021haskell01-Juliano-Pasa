@@ -1,4 +1,5 @@
 <svg width='500.00' height='500.00' xmlns='http://www.w3.org/2000/svg'>
+<circle cx='250' cy='250' r='500' fill='rgb(0, 0, 0, 1.0)' />
 <circle cx='250' cy='250' r='500' fill='rgb(0, 42, 128, 0.2)' />
 <circle cx='250' cy='110' r='100' fill='rgb(175, 175, 175, 0.6)' />
 <circle cx='244' cy='104' r='95' fill='rgb(255, 255, 255, 0.8)' />
